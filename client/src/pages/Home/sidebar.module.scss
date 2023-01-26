@@ -1,0 +1,51 @@
+.sidebar {
+}
+.headding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--secondary-text-color);
+
+  & > h3 {
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#ff8a00),
+      to(#da1b60)
+    );
+    margin: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+  }
+}
+.heading__date {
+  margin: 0;
+}
+.time {
+  display: flex;
+  margin: 0;
+  border-radius: var(--bd2);
+}
+.date {
+  background: #111720;
+  // background-image: linear-gradient(
+  //   to right,
+  //   #ff00cc 0%,
+  //   #333399 51%,
+  //   #ff00cc 100%
+  // );
+  padding: 5px 8px;
+  list-style: none;
+  border: 1px solid #1b2b3a;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.list__item {
+  margin: 8px 0;
+}

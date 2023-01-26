@@ -1,0 +1,95 @@
+POST  http://localhost:4000/auth/register
+Content-Type: application/json
+
+{
+  "username":"admin",
+  "password":"11111"
+
+}
+
+#### 
+
+
+POST  http://localhost:4000/auth/login
+Content-Type: application/json
+
+{
+  "username":"Binh121",
+  "password":"111"
+}
+
+
+#### 
+
+
+GET  http://localhost:4000/slide
+Content-Type: application/json
+
+
+
+
+#### 
+
+
+POST   http://localhost:4000/slide
+Content-Type: application/json
+
+{
+
+}
+
+#### 
+
+
+POST   http://localhost:4000/film/upfilm
+Content-Type: application/json
+
+{
+  "name": "DPYK",
+  "img": "HinhANh",
+  "desc": "ashgdash",
+  "year": 2021,
+  "chap": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "country": "CHINA",
+  "type": [
+    "ANOMATION"
+  ]
+}
+
+###
+GET    http://localhost:4000/film/all
+Content-Type: application/json
+
+####
+GET    http://localhost:4000/film/the-gioi-hoan-my
+Content-Type: application/json
+
+
+####
+
+PUT  http://localhost:4000/film/update/6346f025d0548a5073d02dfa
+Content-Type: application/json
+
+{
+  "name": "DPYK",
+  "img": "HinhANh",
+  "desc": "ashgdash",
+  "year": 2021,
+  "chap": [
+    1,
+    2,
+    3,
+    4,
+    5,6,7,9
+  ],
+  "country": "CHINA",
+  "type": [
+    "ANOMATION"
+  ]
+}

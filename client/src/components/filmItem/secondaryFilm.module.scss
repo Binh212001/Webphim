@@ -1,0 +1,28 @@
+.card {
+  margin: 3px;
+  background: #0b0f15;
+  background-size: 200% 100%;
+  background-image: linear-gradient(
+    to right,
+    #151d25 0%,
+    #11151500 51%,
+    #060808 50%
+  );
+  border-radius: var(--bd4);
+  overflow: hidden;
+}
+
+.poster {
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.card :hover .poster {
+  transform: scale(1.1, 1.1);
+}
+.card :hover h4 {
+  color: var(--view-text-color);
+}
+.viewsCount {
+  color: var(--view-text-color);
+}
